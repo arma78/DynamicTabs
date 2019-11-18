@@ -1,0 +1,122 @@
+﻿.buttonNav
+{
+    background:url("~/Style Library/Dynamic_TAB CSS/Dynamic_TAB Images/tab_button1.png");                   
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;  
+    border-width:1px;
+    border-style:solid;
+    border-color:Gray;
+    border-bottom-width:0px;  
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    
+   }
+
+.buttonNav2
+{
+    background:url("~/Style Library/Dynamic_TAB CSS/Dynamic_TAB Images/tab_button2.png");
+    font-family: Arial, sans-serif;
+    font-size: 14px;  
+    font-weight: bold;  
+    padding: 10px;      
+    border-width:1px;
+    border-style:solid;
+    border-color:Gray;
+    border-bottom-color:White; 
+    position:relative;
+    bottom:-1px;
+    z-index:0; 
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+
+      
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+ {
+
+    /*Chrome CSS here*/
+
+    .buttonNav2
+ {
+    background:url("~/Style Library/Dynamic_TAB CSS/Dynamic_TAB Images/tab_button2.png");
+    font-family: Arial, sans-serif;
+    font-size: 14px;  
+    font-weight: bold;  
+    padding: 10px;      
+    border-width:1px;
+    border-style:solid;
+    border-color:Gray;
+    border-bottom-color:White; 
+    position:relative;
+    bottom:-3px;
+    z-index:1; 
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+
+  }
+  
+  .buttonNav
+{
+    background:url("~/Style Library/Dynamic_TAB CSS/Dynamic_TAB Images/tab_button1.png");                   
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;  
+    border-width:1px;
+    border-style:solid;
+    border-color:Gray;
+    border-bottom-width:0px;  
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    position:relative;
+    bottom:-2px;
+  
+}
+
+.tabcontainer
+{
+     padding:0px;
+     border-width:1px;
+     border-style:solid;
+     border-color:Gray; 
+     z-index:0;   
+}
+
+
+  
+  
+}
+
+
+.GridView1
+{
+    font-family: Arial, sans-serif;
+    font-size: 12px;   
+    color:Black;
+    border-style:none;    
+}
+.GridView1 td 
+{    
+    padding: 10px;  
+    color: Black; 
+    border-style:none;   
+} 
+.buttonNav:hover
+{
+  cursor: pointer;  
+}
+.tabcontainer
+{
+     padding:2px;
+     border-width:1px;
+     border-style:solid;
+     border-color:Gray; 
+     z-index:1;   
+}
+.GridView1  a { color: #008bb8; text-decoration: none; }   
+.GridView1  a:hover { color: #008bb8; text-decoration: none; } 
+.GridView1  a:visited { color: #008bb8; text-decoration: none; } 
+

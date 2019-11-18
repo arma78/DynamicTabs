@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="PHO_Dynamic_Tab_Web_PartUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="PHO_Dynamic_Tab_Web_Part\" Type="ElementManifest" />
+    <ProjectItemFile Source="PHO_Dynamic_Tab_Web_Part.webpart" Target="PHO_Dynamic_Tab_Web_Part\" Type="ElementFile" />
+    <ProjectItemFile Source="PHO_Dynamic_Tab_Web_PartUserControl.ascx" Target="CONTROLTEMPLATES\PHO_Dynamic_Tab_Web_Part\PHO_Dynamic_Tab_Web_Part\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="PHO_Dynamic_Tab_Web_Part.PHO_Dynamic_Tab_Web_Part" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

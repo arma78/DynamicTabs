@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="PHO_Dynamic_Tab_Web_Part" List="113" Url="_catalogs/wp">
+    <File Path="PHO_Dynamic_Tab_Web_Part\PHO_Dynamic_Tab_Web_Part.webpart" Url="PHO_Dynamic_Tab_Web_Part.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>
+
